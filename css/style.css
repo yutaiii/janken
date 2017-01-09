@@ -1,0 +1,138 @@
+p{
+  margin 0;
+  padding 0;
+}
+
+.main{
+  margin: 0 auto;
+}
+
+.row{
+  float: left;
+  margin : 0 auto;
+  margin-top: 70px;
+}
+
+.jankenarea{
+  float: left;
+}
+
+.leftBox{
+  margin-left: 170px;
+}
+
+.centerBox{
+  margin: 55px 70px 25px;
+}
+
+.life{
+  height: 30px;
+  padding-left: 30px;
+}
+
+.heartImageSize{
+  width: 30px;
+  height: 30px:
+}
+
+.playername{
+  text-align: center;
+  font-size: 20px;
+}
+
+.janken_picBox{
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+}
+
+.resultBox{
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.pic_row{
+  clear: both;
+  float: left;
+  margin-top: 50px;
+}
+
+.picdiv{
+  margin-left: 50px;
+  float:left;
+}
+
+.pic{
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.clearfix{
+  content: "";
+  clear: both:
+  display:block;
+}
+
+.overlay{
+  width: 100%;
+  height: 120%;
+  background-color: rgba(0, 0, 0, 0.4);
+  float: left;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.modal-window{
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  margin: 100px auto 0px;
+}
+
+#modal-window p{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#modal-window img{
+  width: 200px;
+  height: 180px;
+  margin-left: 100px;
+  float: left;
+}
+
+.replay-button{
+  margin 0 auto;
+  background-color: red;
+}
+
+.quit-button{
+  background-color: blue;
+}
+
+.global-margin-auto{
+  margin: 0 auto;
+}
+
+#modal-window button{
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid black;
+  color: white;
+}
+
+
+.crearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}

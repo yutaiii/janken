@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/underscore-min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </head>
+  <body>
+    <div class="main">
+    <div class="row">
+      <div class="jankenarea leftBox">
+        <div class="life">
+          <img id="myHeart1" class="heartImageSize" src="img/heartjanken.jpg">
+          <img id="myHeart2" class="heartImageSize" src="img/heartjanken.jpg">
+          <img id="myHeart3" class="heartImageSize" src="img/heartjanken.jpg">
+        </div>
+        <div class="playername">あなた</div>
+
+        <div id="picBoxMe"class="janken_picBox">
+        </div>
+      </div>
+      <div class="jankenarea">
+       <div id="result" class="resultBox centerBox">
+         じゃんけん...
+        </div>
+      </div>
+      <div class="jankenarea">
+        <div class="life">
+          <img id="pcHeart1" class="heartImageSize" src="img/heartjanken.jpg">
+          <img id="pcHeart2" class="heartImageSize" src="img/heartjanken.jpg">
+          <img id="pcHeart3" class="heartImageSize" src="img/heartjanken.jpg">
+        </div>
+        <div class="playername">AI搭載のPC</div>
+         
+         <div id="picBoxPc" class="janken_picBox">
+         </div>
+      </div>
+    </div>
+    <div class="pic_row">
+      <div class="picdiv"><img id="rock" class="pic" src="img/rock.png"></div>
+      <div class="picdiv"><img id='scissors' class="pic" src="img/scissors.png"></div>
+      <div class="picdiv"><img id="paper" class="pic" src="img/paper.jpg"></div>
+    </div>
+  </div>
+
+  <div id="modal-window" class="overlay"> <!--　ゲーム終了時に出すモータル -->
+    <div class="modal-window">
+      <p id="lastmessage"></p>
+      <img id="lastpic" src="">
+      <div style="clear: both; flaot: left;" class="global-margin-auto">
+        <center>
+          <button id="replay-button" class="replay-button">もう一度遊ぶ！</button>
+          <button id="quit-button" style="margin-left: 20px;"class="quit-button">ゲームをやめる</button>
+        </center>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
